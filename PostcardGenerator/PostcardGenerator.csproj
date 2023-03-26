@@ -1,0 +1,116 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="background_images\gif_bg.gif" />
+    <None Remove="background_images\gold_bg.jpeg" />
+    <None Remove="background_images\heart_bg.jpg" />
+    <None Remove="background_images\pink_bg.jpg" />
+    <None Remove="background_images\pretty_bg.jpg" />
+    <None Remove="background_images\rainbow_bg.jpg" />
+    <None Remove="staff_images\coco_pic.png" />
+    <None Remove="staff_images\flowers_pic.png" />
+    <None Remove="staff_images\heart_pic.png" />
+    <None Remove="staff_images\mouth_pic.png" />
+    <None Remove="staff_images\podro_pic.png" />
+    <None Remove="staff_images\rose_pic.png" />
+    <None Remove="staff_images\strawberry_pic.png" />
+    <None Remove="staff_images\terriblecat_pic.png" />
+    <None Remove="text_images\bye.png" />
+    <None Remove="text_images\day_of_day.png" />
+    <None Remove="text_images\friday.png" />
+    <None Remove="text_images\new_day.png" />
+    <None Remove="text_images\saturday.png" />
+    <None Remove="text_images\weekend.png" />
+    <None Remove="text_images\wensday.png" />
+    <None Remove="working_image\edit.png" />
+    <None Remove="working_image\generation.png" />
+    <None Remove="working_image\reload.png" />
+    <None Remove="working_image\save.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="background_images\gif_bg.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="background_images\gold_bg.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="background_images\heart_bg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="background_images\pink_bg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="background_images\pretty_bg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="background_images\rainbow_bg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\coco_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\flowers_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\heart_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\mouth_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\podro_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\rose_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\strawberry_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="staff_images\terriblecat_pic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="text_images\bye.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="text_images\day_of_day.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="text_images\friday.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="text_images\new_day.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="text_images\saturday.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="text_images\weekend.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="text_images\wensday.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="working_image\edit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="working_image\generation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="working_image\reload.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="working_image\save.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
