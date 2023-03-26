@@ -48,6 +48,7 @@ namespace PostcardGenerator
             group.Children.Add(new ImageDrawing(new BitmapImage(new Uri($@"pack://application:,,,/{tx}", UriKind.Absolute)), new Rect(0, 0, 300, 200)));
 
             PostCard.Source = new DrawingImage(group);
+            //rt
         }
         public MainWindow()
         {
