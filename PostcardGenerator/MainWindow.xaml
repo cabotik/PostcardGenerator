@@ -25,6 +25,11 @@
                     <Image Width="70" Height="70" Source="/working_image/reload.png"/>
                 </StackPanel>
             </Button>
+            <Button Margin="10" ToolTip="Save postcard" Name="btnSave" Click="btnSave_Click"  Width="70" Height="70" Background="White" BorderThickness="0">
+                <StackPanel>
+                    <Image Width="70" Height="70" Source="/working_image/save.png"/>
+                </StackPanel>
+            </Button>
         </StackPanel>
     </Grid>
 </Window>
